@@ -1,0 +1,16 @@
+.latex-sub, .latex-sup {
+    position: relative;
+    font-size: smaller; /* Consider if text-transform: uppercase is necessary */
+}
+
+.latex-sub {
+    top: 0.2rem;
+    margin-left: -0.1667rem; /* Adjust for specific font and layout */
+    margin-right: -0.125rem;
+}
+
+.latex-sup {
+    top: -0.2rem;
+    margin-left: -0.36rem; /* Adjust for specific font and layout */
+    margin-right: -0.15rem;
+}

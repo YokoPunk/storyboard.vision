@@ -1,0 +1,8 @@
+/* logo-style.css */
+
+.logo {
+    width: auto;   /* Adjusts width automatically to preserve aspect ratio */
+    height: 60px;  /* Fixed height, adjust as necessary */
+    display: block; /* Ensures the image is treated as a block-level element */
+    margin-left: 0; /* Aligns the logo to the left */
+}
